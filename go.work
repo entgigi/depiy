@@ -1,0 +1,9 @@
+go 1.18
+
+use (
+	./common-libs
+	./operators/bundle-operator
+	./operators/gateway-operator
+	./operators/plugin-operator
+	./services/bundle-rest-app
+)
